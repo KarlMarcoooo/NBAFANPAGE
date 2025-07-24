@@ -1,0 +1,20 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>NBA Fan Page</title>
+</head>
+ <hr color="gray">
+<body>
+
+
+
+<center><img src="IMAGES/JORDAN.jpg" height="500" width="500">
+  
+
+<center>
+
+<a href="index.html.html"> HOME </A>
+
+
+</body>
+</html>

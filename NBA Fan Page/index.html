@@ -1,0 +1,326 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Fan Page</title>
+
+    <style>
+        /* General page style */
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Align content vertically to the top */
+            flex-direction: column;
+            min-height: 100vh; /* Ensures full height */
+            text-align: center; /* Centers text */
+        }
+
+        h1, h2 {
+            font-family: 'Impact', sans-serif;
+            color: #002B5C;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        h1 {
+            border-bottom: 3px solid #CE1141;
+            padding-bottom: 5px;
+        }
+
+        h2 {
+            margin-top: 20px;
+            color: #CE1141;
+        }
+
+        p, li {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        ul {
+            margin-left: 20px;
+            list-style: none;
+            padding: 0;
+        }
+
+        img {
+            border-radius: 8px;
+            margin: 5px;
+            border: 2px solid #002B5C;
+            transition: transform 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        hr {
+            border: none;
+            height: 4px;
+            background: linear-gradient(to right, #002B5C, #CE1141);
+            margin: 20px 0;
+            width: 80%; /* Adjust width to be centered */
+        }
+
+        table {
+            background-color: #fff;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            width: 80%; /* Adjust table width */
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #002B5C;
+            color: white;
+        }
+
+        td {
+            background-color: #f9f9f9;
+        }
+
+        video, audio {
+            display: block;
+            margin: 20px auto;
+            border: 3px solid #CE1141;
+            border-radius: 12px;
+        }
+
+        /* Center-aligned content */
+        .center-content {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Fixed buttons (not aligned with content) */
+        .fixed-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 9999;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            z-index: 9999;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="center-content">
+
+    <hr color="gray">
+    <h1>NBA Fan Page</h1>
+    <p>The <b>National Basketball Association (NBA)</b> is a professional basketball league in North America. 
+        It is considered the <i>premier men's professional basketball league</i> in the world.</p>
+    <p><b>Founded:</b> June 6, 1946<br>
+       <b>Number of teams:</b> 30</p>
+
+    <h2>Top NBA Teams</h2>
+    <ul>
+        <li>Los Angeles Lakers</li>
+        <li>Golden State Warriors</li>
+        <li>Boston Celtics</li>
+        <li>Chicago Bulls</li>
+    </ul>
+<p>
+  <ul> 
+    <a href="PAGES/LAKERS.html"> 
+      <img src="IMAGES/LAKERS.JPG" height="100" width="100">
+    </a>
+    <a href="PAGES/GSW.html"> 
+      <img src="IMAGES/GSW.PNG" height="100" width="100">
+    </a>
+    <a href="PAGES/BOSTON.html"> 
+      <img src="IMAGES/BOSTON.PNG" height="100" width="100">
+    </a>
+    <a href="PAGES/BULLS.html"> 
+      <img src="IMAGES/BULLS.PNG" height="100" width="100">
+    </a>
+  </ul>
+</p>
+
+    <hr color="gray">
+    <h1>Los Angeles Lakers History</h1>
+    <p>The Los Angeles Lakers are one of the most successful franchises in NBA history...</p>
+    <h2>Franchise Highlights</h2>
+    <ul>
+        <li>17 NBA Championships...</li>
+        <li>Over 30 NBA Finals appearances</li>
+        <li>Iconic players: Kobe, Magic, Kareem, Shaq, LeBron</li>
+        <li>Longest winning streak: 33 games</li>
+  
+
+    <hr color="gray">
+    <h1>Golden State Warriors History</h1>
+    <p>Known for their 3-point shooting revolution and dynastic run.</p>
+    <h2>Franchise Highlights</h2>
+    <ul>
+        <li>7 NBA Championships</li>
+        <li>Record 73–9 season</li>
+        <li>Stars: Curry, Klay, KD, Draymond, Wilt</li>
+    </ul>
+
+    <hr color="gray">
+    <h1>Boston Celtics History</h1>
+    <p>The most storied NBA franchise with 17 championships.</p>
+    <ul>
+        <li>8 straight titles (1959–1966)</li>
+        <li>Legendary players: Bill Russell, Larry Bird, etc.</li>
+        <li>Historic rivalry with the Lakers</li>
+    </ul>
+
+    <hr color="gray">
+    <h1>Chicago Bulls History</h1>
+    <p>Global brand from MJ’s era with two 3-peats in the '90s.</p>
+    <ul>
+        <li>6 NBA Titles</li>
+        <li>Stars: MJ, Pippen, Rodman, Rose</li>
+        <li>72–10 season in 1995–96</li>
+    </ul>
+
+    <h2>Iconic NBA Players</h2>
+    <p>Some of the greatest players:</p>
+    <ul>
+        <li><b>Michael Jordan</b> – 6× champ</li>
+        <li><i>LeBron James</i> – 4× MVP</li>
+        <li>Kobe Bryant – 5× champ</li>
+        <li>Stephen Curry – 4× champ</li>
+    </ul>
+
+    <p><i>Enjoy watching the games and supporting your favorite teams!</i></p>
+    <hr color="gray">
+
+    <video controls width="500" height="500" autoplay muted loop>
+        <source src="VIDEOS/JORDAN VIDEO.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <hr color="gray">
+
+    <audio controls autoplay>
+        <source src="MUSIC/BASKETBALL.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <hr color="gray">
+
+    <h2>NBA Legends</h2>
+    <table border cellspacing="10">
+        <tr>
+            <td>
+                <table cellspacing="10">
+                    <thead>
+                        <tr>
+                            <th>Player</th><th>Position</th><th>Rings</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td><a href="PAGES/JORDAN.html"><img src="IMAGES/JORDAN.JPG" width="100" height="100"></a></td>
+                        <td>Shooting Guard</td><td>🏆🏆🏆🏆🏆🏆</td>
+                    </tr>
+                    <tr>
+                        <td><a href="PAGES/LEBRON.html"><img src="IMAGES/LEBRON.JPG" width="100" height="100"></a></td>
+                        <td>Forward</td><td>🏆🏆🏆🏆</td>
+                    </tr>
+                    <tr>
+                        <td><a href="PAGES/KOBE.html"><img src="IMAGES/KOBE.JPG" width="100" height="100"></a></td>
+                        <td>Shooting Guard</td><td>🏆🏆🏆🏆🏆</td>
+                    </tr>
+                    <tr>
+                        <td><a href="PAGES/CURRY.html"><img src="IMAGES/CURRY.JPG" width="100" height="100"></a></td>
+                        <td>Point Guard</td><td>🏆🏆🏆🏆</td>
+                    </tr>
+                </table>
+            </td>
+
+            <td>
+                <table cellspacing="10">
+                    <thead>
+                        <tr>
+                            <th>Player</th><th>Position</th><th>Rings</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td><a href="PAGES/KD.html"><img src="IMAGES/KD.JPG" width="100" height="100"></a></td>
+                        <td>Forward</td><td>🏆🏆</td>
+                    </tr>
+                    <tr>
+                        <td><a href="PAGES/SHAQ.html"><img src="IMAGES/SHAQ.JPG" width="100" height="100"></a></td>
+                        <td>Center</td><td>🏆🏆🏆🏆</td>
+                    </tr>
+                    <tr>
+                        <td><a href="PAGES/DUNCAN.html"><img src="IMAGES/DUNCAN.JPG" width="100" height="100"></a></td>
+                        <td>PF / Center</td><td>🏆🏆🏆🏆🏆</td>
+                    </tr>
+                    <tr>
+                        <td><a href="PAGES/KLAY.html"><img src="IMAGES/KLAY.JPG" width="100" height="100"></a></td>
+                        <td>Shooting Guard</td><td>🏆🏆🏆🏆</td>
+                    </tr>
+                </table>
+            </td>
+
+            <td>
+                <table cellspacing="10">
+                    <thead>
+                        <tr>
+                            <th>Player</th><th>Position</th><th>Rings</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td><a href="PAGES/GIANNIS.html"><img src="IMAGES/GIANNIS.JPG" width="100" height="100"></a></td>
+                        <td>Power Forward</td><td>🏆</td>
+                    </tr>
+                    <tr>
+                        <td><a href="PAGES/JOKIC.html"><img src="IMAGES/JOKIC.JPG" width="100" height="100"></a></td>
+                        <td>Center</td><td>🏆</td>
+                    </tr>
+                    <tr>
+                        <td><a href="PAGES/JIMMY.html"><img src="IMAGES/JIMMY.JPG" width="100" height="100"></a></td>
+                        <td>SG / SF</td><td>—</td>
+                    </tr>
+                    <tr>
+                        <td><a href="PAGES/KYRIE.html"><img src="IMAGES/KYRIE.JPG" width="100" height="100"></a></td>
+                        <td>Point Guard</td><td>🏆</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</div>
+
+
+<p>
+    <a href="PAGES/STORE.html">
+        <img src="IMAGES/CART.JPG" width="50" height="50" alt="Cart" class="fixed-button">
+    </a>
+</p>
+
+<p>
+    <a href="#">
+        <img src="IMAGES/ARROW.jpg" width="40" height="40" alt="Back to Top" class="back-to-top">
+    </a>
+</p>
+
+</body>
+</html>
