@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Banaue Rice Terraces - Wonder of the Philippines</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f7fdfb;
+      color: #2e3c3f;
+    }
+
+    header {
+      background: linear-gradient(135deg, #388e3c, #1b5e20);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    header a {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background-color: white;
+      color: #1b5e20;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 0.9em;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #2e7d32;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #1b5e20;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="../main.html">Home</a>
+    <h1>Banaue Rice Terraces</h1>
+    <p>A UNESCO World Heritage Site and a living legacy of Filipino ingenuity and harmony with nature.</p>
+  </header>
+
+  <main>
+    <section style="margin-bottom: 30px;">
+      <h2>About Banaue</h2>
+      <p style="line-height: 1.6;">
+        Carved into the mountains of Ifugao more than 2,000 years ago, the <strong>Banaue Rice Terraces</strong> are often called the "Eighth Wonder of the World." These ancient terraces were built by hand using basic tools, and have been passed down through generations.
+      </p>
+      <p style="line-height: 1.6;">
+        The terraces showcase not only the agricultural brilliance of the Ifugao people but also their cultural identity and deep respect for the environment. Today, they remain a breathtaking symbol of sustainable farming and community heritage.
+      </p>
+    </section>
+
+    <section>
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="../images/brt1.jpg" alt="Banaue terraces morning view">
+        <img src="../images/brt2.jpg" alt="Lush green rice terraces">
+        <img src="../images/brt3.jpg" alt="Traditional Ifugao hut with terraces backdrop">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Banaue Heritage Travels. All rights reserved.
+  </footer>
+
+</body>
+</html>
